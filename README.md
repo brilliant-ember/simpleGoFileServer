@@ -2,7 +2,7 @@
 
 - Runs on port 5001 by default
 - it has 3 routes:
-   1. `ping` so calling GET 127.0.0.1/ping will return the respone "pong". This route is for checking that the server is up and running
+   1. `ping` so calling GET 127.0.0.1:5001/ping will return the respone "pong". This route is for checking that the server is up and running
    2. `upload` POST request allows us to upload a file to the server, you must use "myFile" key for example `curl -F myFile=@file_name 127.0.0.1:5001/upload`
    3. `download` will serve the file previously uploaded using the `upload` route. 
    
