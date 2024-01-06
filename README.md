@@ -13,3 +13,7 @@ Note that this server can upload and receive one single file. It serves the same
 1. `go run ./cmd/.`
 2. in another terminal do `curl 127.0.0.1:5001/ping` to see it working
 
+
+
+https://github.com/brilliant-ember/simpleGoFileServer/assets/23269759/1d7758fc-e7b7-4788-92f7-f77ecb6d0a0c
+
